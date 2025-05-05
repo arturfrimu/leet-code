@@ -59,6 +59,17 @@ Output:
 
 SOLUTION:
 
+1. Identify if exists n salaries < N
+2. If not return null
+3. If exists return it
+
+CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
+BEGIN
+    RETURN (
+        # Write your MySQL query statement below.
+    )
+END
+
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
   RETURN (
