@@ -76,7 +76,7 @@ BEGIN
       # Write your MySQL query statement below.
      SELECT
         CASE
-            WHEN (SELECT COUNT(DISTINCT salary) FROM Employee) < N THEN NULL
+            WHEN N <= 0(SELECT COUNT(DISTINCT salary) FROM Employee) < N THEN NULL
             ELSE (
             SELECT MIN(sal)
             FROM (
